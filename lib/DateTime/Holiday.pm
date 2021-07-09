@@ -4,12 +4,19 @@ use 5.026001;
 use strict;
 use warnings;
 
-our @ISA = qw();
+use DateTime;
+
+our @ISA = qw(DateTime);
 
 our $VERSION = '0.01';
 
 
 # Preloaded methods go here.
+
+sub isHoliday {
+
+}
+
 
 1;
 __END__
